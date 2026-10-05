@@ -1,0 +1,52 @@
+name: Update Loon subscription
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 */6 * * *'
+  push:
+    paths:
+      - 'bootstrap.json'
+      - 'profiles/**'
+      - 'tools/**'
+      - '.github/workflows/update.yml'
+permissions:
+  contents: write
+concurrency:
+  group: loon-subscription-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Initialize repository files once
+        run: |
+          python3 - <<'PYBOOT'
+          import json
+          from pathlib import Path
+          for name, content in json.loads(Path('bootstrap.json').read_text()).items():
+              path = Path(name)
+              if path.is_absolute() or '..' in path.parts:
+                  raise ValueError('Invalid bootstrap path')
+              if not path.exists():
+                  path.parent.mkdir(parents=True, exist_ok=True)
+                  path.write_text(content)
+          PYBOOT
+      - name: Test updater
+        run: python3 tools/test_update.py
+      - name: Refresh and validate Loon references
+        run: python3 tools/update.py
+      - name: Commit changed Loon files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profiles tools upstream dist .gitignore
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Loon rules plugins and scripts'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
