@@ -1,10 +1,87 @@
 #!/usr/bin/env python3
 """Refresh actual Loon references. Validate downloads; never execute upstream JS."""
-import argparse, concurrent.futures, hashlib, json, os, re, subprocess, tempfile, urllib.request, urllib.error, urllib.parse
+import argparse, concurrent.futures, hashlib, ipaddress, json, os, re, subprocess, tempfile, urllib.request, urllib.error, urllib.parse
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BLOCKED_HOSTS = {}
 CATALOG_URL = 'https://hub.kelee.one/list.json'
+LING_BASE='https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/'
+LING_POLICIES={'HSBC_HK.list':'汇丰香港','HK_Banks_Direct.list':'香港银行','HK_Broker.list':'券商服务','Mail.list':'邮件服务','ApplePush.list':'苹果推送','AI.list':'AI服务','Google.list':'Google','Apple.list':'Apple服务'}
+
+def ling_rules(body, filename):
+    policy=LING_POLICIES[filename]; rows=[]
+    for line in body.splitlines():
+        line=line.strip()
+        if not line: continue
+        if line.startswith('#'):
+            if filename=='AI.list' and line.startswith('# > '):
+                section=line[4:].strip()
+                policy='ChatGPT' if section=='ChatGPT' else 'Claude' if section=='Claude' else 'AI服务'
+            if filename=='Google.list' and line=='# > Google AI (from AI.list)':policy='Gemini'
+            continue
+        # AI supplement in Google.list ends before the ordinary Google list.
+        if filename=='Google.list' and line=='DOMAIN,voice.telephony.goog':policy='Google'
+        parts=[x.strip() for x in line.split(',')]
+        if len(parts) not in (2,3) or (len(parts)==3 and parts[2]!='no-resolve'):raise ValueError('unsupported LingJing rule')
+        kind,value=parts[:2]
+        if kind=='URL-REGEX':continue # Path-specific bank URL matching requires separate HTTPS handling.
+        if kind not in {'DOMAIN','DOMAIN-SUFFIX','DOMAIN-KEYWORD','USER-AGENT','IP-CIDR','IP-CIDR6'}:raise ValueError('unsupported LingJing rule type')
+        if kind in {'IP-CIDR','IP-CIDR6'}:
+            net=ipaddress.ip_network(value,strict=False);value=str(net);kind='IP-CIDR6' if net.version==6 else 'IP-CIDR'
+        if kind.startswith('DOMAIN'):value=value.lower().rstrip('.')
+        if not value:raise ValueError('empty LingJing rule')
+        rows.append((kind,value,policy,parts[2:]));
+    return rows
+
+def integrate_ling(text,offline=False):
+    existing=set();section=''
+    for line in text.splitlines():
+        if line.startswith('['):section=line
+        if section=='[Rule]' and line and not line.startswith(('#','[')):
+            p=line.split(',')
+            if len(p)>=3:existing.add((p[0],p[1].lower(),p[2]))
+    # Compare against active baseline rule sets, respecting their assigned policies.
+    section=''
+    for line in text.splitlines():
+        if line.startswith('['):section=line
+        if section!='[Remote Rule]' or not line.startswith('https://') or 'enabled=false' in line:continue
+        m=re.search(r'policy=([^,]+)',line)
+        path=ROOT/relative(line.split(',')[0],'rules')
+        if m and path.exists():
+            for row in path.read_text().splitlines():
+                p=row.strip().split(',')
+                if len(p)>=2 and not p[0].startswith('#'):existing.add((p[0],p[1].lower(),m[1].strip()))
+    additions=[];reports=[];duplicates=0;skipped=0;bank_exclusions=set()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        downloaded=list(pool.map(lambda filename:refresh((LING_BASE+filename,'rules'),offline),LING_POLICIES))
+    for filename,(r,body) in zip(LING_POLICIES,downloaded):
+        reports.append(r)
+        if body is None:continue
+        for kind,value,policy,flags in ling_rules(body,filename):
+            if filename in {'HSBC_HK.list','HK_Banks_Direct.list'} and kind in {'DOMAIN','DOMAIN-SUFFIX'}:
+                bank_exclusions.add('-'+value)
+                if kind=='DOMAIN-SUFFIX':bank_exclusions.add('-*.'+value)
+            # Keep explicit user policies. Preserve intentional service overrides of broad baseline sets.
+            signature=(kind,value.lower(),policy)
+            if filename in {'Google.list','Apple.list'} and policy in {'Google','Apple服务'} and any(k==kind and v==value.lower() for k,v,p in existing):
+                duplicates+=1;continue
+            if signature in existing:
+                duplicates+=1;continue
+            if kind in {'DOMAIN','DOMAIN-SUFFIX'} and any(('DOMAIN-SUFFIX',suffix,policy) in existing for suffix in [value.lower()]+['.'.join(value.lower().split('.')[i:]) for i in range(1,len(value.split('.')))]):
+                duplicates+=1;continue
+            existing.add(signature);additions.append(','.join([kind,value,policy]+flags))
+        skipped+=sum(l.strip().startswith('URL-REGEX,') for l in body.splitlines())
+    block=['# LingJingMaster/Shadowrocket-Rules supplements (MIT, Copyright 2026 Ling_Jing).','# Attribution and full license: README.md; generated from eight source lists.']+additions
+    # Supplemental service rules must precede broad local Apple / Microsoft / Google rules.
+    text=text.replace('[Rule]\n','[Rule]\n'+'\n'.join(block)+'\n',1)
+    lines=text.splitlines();section=''
+    for i,line in enumerate(lines):
+        if line.startswith('['):section=line
+        if section.lower()=='[mitm]' and re.match(r'hostname\s*=',line):
+            values=[v.strip() for v in line.split('=',1)[1].split(',') if v.strip()]
+            lines[i]='hostname = '+','.join(values+sorted(bank_exclusions-set(values)))
+    text='\n'.join(lines)+'\n'
+    return text,{'added':len(additions),'duplicates_removed':duplicates,'unsupported_url_rules_skipped':skipped,'sources':reports}
 
 def catalog_entries(body):
     data=json.loads(body)
@@ -165,6 +242,8 @@ def main():
                 if body is not None:
                     contents[report['url']]=body
                     if report['kind']=='plugins': queue.update(references(body))
+    text,ling=integrate_ling(text,args.offline)
+    for r in ling['sources']:done[r['url']]=r
     repo=os.environ.get('GITHUB_REPOSITORY','juscice/loon-subscription')
     raw='https://raw.githubusercontent.com/'+repo+'/main/'
     mapping={u:raw+(d['path'].replace('upstream/','dist/') if d['kind']=='plugins' else d['path']) for u,d in done.items() if u in contents}
@@ -179,7 +258,7 @@ def main():
     validate_config(full);(dist/'loon.conf').write_text(full)
     missing=[r for r in done.values() if r['status']=='unavailable']
     plugins=[r for r in done.values() if r['kind']=='plugins']
-    report={'build_status':'degraded' if missing or catalog['status']=='unavailable' else 'complete','catalog':catalog,'blocked_hosts':BLOCKED_HOSTS,'plugins':{'total':len(plugins),'mirrored':sum(r['url'] in contents for r in plugins),'unmirrored':sum(r['url'] not in contents for r in plugins)},'resources':list(done.values()),'counts':{s:sum(r['status']==s for r in done.values()) for s in ['ok','cached','fallback','unavailable']},'runtime_tested':False}
+    report={'build_status':'degraded' if missing or catalog['status']=='unavailable' else 'complete','catalog':catalog,'lingjing':ling,'blocked_hosts':BLOCKED_HOSTS,'plugins':{'total':len(plugins),'mirrored':sum(r['url'] in contents for r in plugins),'unmirrored':sum(r['url'] not in contents for r in plugins)},'resources':list(done.values()),'counts':{s:sum(r['status']==s for r in done.values()) for s in ['ok','cached','fallback','unavailable']},'runtime_tested':False}
     (dist/'update-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report['counts']))
     if missing: print('::warning::Subscription build is degraded: '+str(len(missing))+' references have no validated cache. Original URLs were retained.')
@@ -188,6 +267,7 @@ def main():
         with open(summary,'a') as f:
             f.write('## Loon resource synchronization\n\nBuild: **'+report['build_status']+'**\n\nPlugins mirrored: '+str(report['plugins']['mirrored'])+'/'+str(len(plugins))+'\n\nMissing references: '+str(len(missing))+'\n\n')
             f.write('PluginHub catalog: '+catalog['status']+'; selected: '+str(catalog['selected'])+'; added: '+str(catalog['added'])+'; already present: '+str(catalog['existing'])+'\n\n')
+            f.write('LingJing supplements: '+str(ling['added'])+'; duplicate rules removed: '+str(ling['duplicates_removed'])+'; source lists: '+str(len(ling['sources']))+'\n\n')
             for host,reason in BLOCKED_HOSTS.items(): f.write('- '+host+': '+reason+'\n')
 
 if __name__=='__main__': main()
