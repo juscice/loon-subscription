@@ -1,8 +1,23 @@
 #!/usr/bin/env python3
 """Refresh actual Loon references. Validate downloads; never execute upstream JS."""
-import argparse, concurrent.futures, hashlib, json, os, re, subprocess, tempfile, urllib.request
+import argparse, concurrent.futures, hashlib, json, os, re, subprocess, tempfile, urllib.request, urllib.error, urllib.parse
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
+BLOCKED_HOSTS = {}
+
+def download(url):
+    req = urllib.request.Request(url, headers={'User-Agent':'Loon-subscription-updater/1.0'})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r: body=r.read(8*1024*1024+1)
+    except urllib.error.HTTPError as e:
+        body=e.read(65536).decode('utf-8',errors='replace')
+        if e.code==403 and ('Sorry, you have been blocked' in body or 'Attention Required! | Cloudflare' in body or e.headers.get('cf-mitigated')=='challenge'):
+            host=urllib.parse.urlsplit(url).hostname
+            BLOCKED_HOSTS[host]='Cloudflare access block; upstream file was not returned'
+            raise ValueError(BLOCKED_HOSTS[host]) from e
+        raise
+    if len(body)>8*1024*1024: raise ValueError('source too large')
+    return body.decode('utf-8-sig')
 
 def references(text):
     refs = {}; section = ''
@@ -38,15 +53,15 @@ def validate(text, kind):
         allowed={'DOMAIN','DOMAIN-SUFFIX','DOMAIN-KEYWORD','DOMAIN-WILDCARD','IP-CIDR','IP-CIDR6','IP-ASN','GEOIP','URL-REGEX','USER-AGENT','AND','OR','NOT','PROCESS-NAME','DEST-PORT','SRC-IP','SRC-PORT','IN-PORT','PROTOCOL','NETWORK','DOMAIN-SET','RULE-SET','IP-CIDR6','FINAL'}
         if not rows or any(l.split(',')[0].strip() not in allowed for l in rows): raise ValueError('unsupported rule format')
 
-def refresh(item, offline=False):
+def refresh(item, offline=False, candidate=None):
     url,kind=item; rel=relative(url,kind); path=ROOT/rel
     status='cached'; error=None
     try:
         if not offline:
-            req=urllib.request.Request(url,headers={'User-Agent':'Loon-subscription-updater/1.0'})
-            with urllib.request.urlopen(req, timeout=15) as r: b=r.read(8*1024*1024+1)
-            if len(b)>8*1024*1024: raise ValueError('source too large')
-            text=b.decode('utf-8-sig'); validate(text,kind)
+            host=urllib.parse.urlsplit(url).hostname
+            if host in BLOCKED_HOSTS: raise ValueError(BLOCKED_HOSTS[host])
+            text=candidate if candidate is not None else download(url)
+            validate(text,kind)
             path.parent.mkdir(parents=True,exist_ok=True); path.write_text(text); status='ok'
         if not path.exists(): raise ValueError('no validated cache')
         text=path.read_text(); validate(text,kind)
@@ -55,7 +70,7 @@ def refresh(item, offline=False):
         if path.exists():
             text=path.read_text(); validate(text,kind); status='fallback'
         else: text=None; status='unavailable'
-    return {'url':url,'kind':kind,'path':rel,'status':status,'error':error,'sha256':hashlib.sha256(text.encode()).hexdigest() if text else None},text
+    return {'url':url,'kind':kind,'path':rel,'status':status,'error':error,'blocked':urllib.parse.urlsplit(url).hostname in BLOCKED_HOSTS,'sha256':hashlib.sha256(text.encode()).hexdigest() if text else None},text
 
 def render(text, mapping):
     # Only replace URLs at actual active reference sites, never regex bodies or comments.
@@ -85,19 +100,27 @@ def main():
     ap=argparse.ArgumentParser();ap.add_argument('--offline',action='store_true');args=ap.parse_args()
     text=(ROOT/'profiles/loon.conf').read_text(); validate_config(text)
     queue=references(text); done={}; contents={}
+    candidates={}
+    # Check a protected host once before scheduling hundreds of downloads.
+    # A confirmed Cloudflare block is not a missing plugin and must not be retried as one.
+    if not args.offline:
+        protected=sorted(u for u in queue if urllib.parse.urlsplit(u).hostname=='kelee.one')
+        if protected:
+            try: candidates[protected[0]]=download(protected[0])
+            except Exception: pass
     for depth in range(5):
         pending=sorted((u,k) for u,k in queue.items() if u not in done)
         if not pending: break
         if len(done)+len(pending)>1500: raise ValueError('resource count guard')
         with concurrent.futures.ThreadPoolExecutor(max_workers=24) as pool:
-            for report,body in pool.map(lambda item:refresh(item,args.offline),pending):
+            for report,body in pool.map(lambda item:refresh(item,args.offline,candidates.pop(item[0],None)),pending):
                 done[report['url']]=report
                 if body is not None:
                     contents[report['url']]=body
                     if report['kind']=='plugins': queue.update(references(body))
     repo=os.environ.get('GITHUB_REPOSITORY','juscice/loon-subscription')
     raw='https://raw.githubusercontent.com/'+repo+'/main/'
-    mapping={u:raw+d['path'] for u,d in done.items() if u in contents}
+    mapping={u:raw+(d['path'].replace('upstream/','dist/') if d['kind']=='plugins' else d['path']) for u,d in done.items() if u in contents}
     dist=ROOT/'dist';dist.mkdir(exist_ok=True)
     full=render(text,mapping);validate_config(full)
     (dist/'loon.conf').write_text(full)
@@ -106,10 +129,17 @@ def main():
         if done[u]['kind']=='plugins':
             rel=done[u]['path'].replace('upstream/','dist/')
             p=ROOT/rel;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(render(body,mapping))
-            full=full.replace(raw+done[u]['path'],raw+rel)
     validate_config(full);(dist/'loon.conf').write_text(full)
-    report={'resources':list(done.values()),'counts':{s:sum(r['status']==s for r in done.values()) for s in ['ok','cached','fallback','unavailable']},'runtime_tested':False}
+    missing=[r for r in done.values() if r['status']=='unavailable']
+    plugins=[r for r in done.values() if r['kind']=='plugins']
+    report={'build_status':'degraded' if missing else 'complete','blocked_hosts':BLOCKED_HOSTS,'plugins':{'total':len(plugins),'mirrored':sum(r['url'] in contents for r in plugins),'unmirrored':sum(r['url'] not in contents for r in plugins)},'resources':list(done.values()),'counts':{s:sum(r['status']==s for r in done.values()) for s in ['ok','cached','fallback','unavailable']},'runtime_tested':False}
     (dist/'update-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report['counts']))
+    if missing: print('::warning::Subscription build is degraded: '+str(len(missing))+' references have no validated cache. Original URLs were retained.')
+    summary=os.environ.get('GITHUB_STEP_SUMMARY')
+    if summary:
+        with open(summary,'a') as f:
+            f.write('## Loon resource synchronization\n\nBuild: **'+report['build_status']+'**\n\nPlugins mirrored: '+str(report['plugins']['mirrored'])+'/'+str(len(plugins))+'\n\nMissing references: '+str(len(missing))+'\n\n')
+            for host,reason in BLOCKED_HOSTS.items(): f.write('- '+host+': '+reason+'\n')
 
 if __name__=='__main__': main()
