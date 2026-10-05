@@ -109,3 +109,11 @@ python3 tools/update.py
 参考：[Loon MITM 文档](https://nsloon.app/docs/MitM/) · [Loon 脚本文档](https://nsloon.app/docs/Script/script_v2/) · [Loon 通用配置](https://nsloon.app/docs/General/) · [Apple 根证书完全信任](https://support.apple.com/zh-cn/102390)。
 
 说明核对日期：2026-10-05。原作者和上游来源保留在配置与插件中。
+
+## 7. 本次插件同步故障诊断（2026-10-05）
+
+已核实 kelee.one 的 403 响应正文是 Cloudflare 的 `Sorry, you have been blocked` 页面，未返回插件原文。这是当前自动更新访问被上游拦截，不能据此断言插件已删除或网站对所有人都不可用。
+
+更新器已修正：每轮先检查受保护站点；确认访问拦截后停止该站点批量下载，保留有效缓存；没有缓存时保留原链接，并将构建明确标记为 `degraded`。Actions 的 Success 仅表示任务完成，应同时看 Summary 的镜像插件数与同步报告。
+
+目前 271 个插件中，1 个可形成本站镜像，270 个可莉插件尚未取得有效原文。当前配置仍保留这些原链接，不能称为全部插件已经镜像化。完整解决需上游提供允许自动下载的公开文件或独立官方备用来源，或者由使用者提供在 Loon 正常下载的插件及依赖文件供校验缓存。不能用 Surge 模块直接替换 Loon 插件，也不会改用不明代理、模拟挑战令牌或取消下载校验。
