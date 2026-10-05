@@ -4,6 +4,52 @@ import argparse, concurrent.futures, hashlib, json, os, re, subprocess, tempfile
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BLOCKED_HOSTS = {}
+CATALOG_URL = 'https://hub.kelee.one/list.json'
+
+def catalog_entries(body):
+    data=json.loads(body)
+    if not isinstance(data,dict) or not isinstance(data.get('lists'),list) or not 1 <= len(data['lists']) <= 1500:
+        raise ValueError('invalid plugin catalog')
+    entries={}
+    for item in data['lists']:
+        if not isinstance(item,dict) or not isinstance(item.get('tag'),list): raise ValueError('invalid catalog entry')
+        if not {'去广告','功能增强'}.intersection(item['tag']): continue
+        parsed=urllib.parse.urlsplit(item.get('url',''))
+        if parsed.scheme!='loon' or parsed.netloc!='import': raise ValueError('invalid import URL')
+        urls=urllib.parse.parse_qs(parsed.query).get('plugin',[])
+        if len(urls)!=1: raise ValueError('invalid plugin URL')
+        url=urls[0]; p=urllib.parse.urlsplit(url)
+        if p.scheme!='https' or p.hostname!='kelee.one' or p.username or p.password or p.query or p.fragment or not p.path.startswith('/Tool/Loon/Lpx/') or not p.path.endswith('.lpx') or any(c in url for c in ',\r\n '):
+            raise ValueError('unexpected plugin source')
+        entries[url]={'url':url,'tags':sorted(set(item['tag']).intersection({'去广告','功能增强'}))}
+    if not entries: raise ValueError('empty selected catalog')
+    return list(entries.values())
+
+def integrate_catalog(text, offline=False):
+    cache=ROOT/'upstream/catalog.json'; entries=[]; status='cached'; error=None
+    try:
+        if not offline:
+            entries=catalog_entries(download(CATALOG_URL))
+            cache.parent.mkdir(parents=True,exist_ok=True)
+            cache.write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
+            status='ok'
+        else:
+            entries=json.loads(cache.read_text())
+    except Exception as e:
+        error=str(e)
+        if cache.exists(): entries=json.loads(cache.read_text());status='fallback'
+        else: status='unavailable'
+    # Revalidate cached URLs with the same policy as newly downloaded entries.
+    if entries:
+        entries=catalog_entries(json.dumps({'lists':[{'url':'loon://import?plugin='+urllib.parse.quote(e['url'],safe=''),'tag':e['tags']} for e in entries]}))
+    existing={u for u,k in references(text).items() if k=='plugins'}
+    additions=[e['url'] for e in entries if e['url'] not in existing]
+    if additions:
+        lines=text.splitlines(); start=lines.index('[Plugin]')+1
+        end=next((i for i in range(start,len(lines)) if re.fullmatch(r'\[[^]]+\]',lines[i].strip())),len(lines))
+        lines[end:end]=['# Automatically added from PluginHub: ads and enhancements']+[u+', enabled=true' for u in additions]
+        text='\n'.join(lines)+'\n'
+    return text,{'url':CATALOG_URL,'status':status,'selected':len(entries),'added':len(additions),'existing':len(entries)-len(additions),'error':error}
 
 def download(url):
     req = urllib.request.Request(url, headers={'User-Agent':'Loon-subscription-updater/1.0'})
@@ -94,11 +140,12 @@ def validate_config(text):
     for l in text.splitlines():
         if l.startswith('['): section=l
         if section=='[Plugin]' and l.startswith('https://'): urls.append(l.split(',')[0])
-    if len(urls)!=271 or len(set(urls))!=271: raise ValueError('plugin count or dedup changed')
+    if not 271 <= len(urls) <= 1500 or len(set(urls))!=len(urls): raise ValueError('plugin count or dedup changed')
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--offline',action='store_true');args=ap.parse_args()
     text=(ROOT/'profiles/loon.conf').read_text(); validate_config(text)
+    text,catalog=integrate_catalog(text,args.offline);validate_config(text)
     queue=references(text); done={}; contents={}
     candidates={}
     # Check a protected host once before scheduling hundreds of downloads.
@@ -132,7 +179,7 @@ def main():
     validate_config(full);(dist/'loon.conf').write_text(full)
     missing=[r for r in done.values() if r['status']=='unavailable']
     plugins=[r for r in done.values() if r['kind']=='plugins']
-    report={'build_status':'degraded' if missing else 'complete','blocked_hosts':BLOCKED_HOSTS,'plugins':{'total':len(plugins),'mirrored':sum(r['url'] in contents for r in plugins),'unmirrored':sum(r['url'] not in contents for r in plugins)},'resources':list(done.values()),'counts':{s:sum(r['status']==s for r in done.values()) for s in ['ok','cached','fallback','unavailable']},'runtime_tested':False}
+    report={'build_status':'degraded' if missing or catalog['status']=='unavailable' else 'complete','catalog':catalog,'blocked_hosts':BLOCKED_HOSTS,'plugins':{'total':len(plugins),'mirrored':sum(r['url'] in contents for r in plugins),'unmirrored':sum(r['url'] not in contents for r in plugins)},'resources':list(done.values()),'counts':{s:sum(r['status']==s for r in done.values()) for s in ['ok','cached','fallback','unavailable']},'runtime_tested':False}
     (dist/'update-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report['counts']))
     if missing: print('::warning::Subscription build is degraded: '+str(len(missing))+' references have no validated cache. Original URLs were retained.')
@@ -140,6 +187,7 @@ def main():
     if summary:
         with open(summary,'a') as f:
             f.write('## Loon resource synchronization\n\nBuild: **'+report['build_status']+'**\n\nPlugins mirrored: '+str(report['plugins']['mirrored'])+'/'+str(len(plugins))+'\n\nMissing references: '+str(len(missing))+'\n\n')
+            f.write('PluginHub catalog: '+catalog['status']+'; selected: '+str(catalog['selected'])+'; added: '+str(catalog['added'])+'; already present: '+str(catalog['existing'])+'\n\n')
             for host,reason in BLOCKED_HOSTS.items(): f.write('- '+host+': '+reason+'\n')
 
 if __name__=='__main__': main()
