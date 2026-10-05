@@ -1,5 +1,13 @@
 {
   "build_status": "degraded",
+  "catalog": {
+    "url": "https://hub.kelee.one/list.json",
+    "status": "ok",
+    "selected": 263,
+    "added": 0,
+    "existing": 263,
+    "error": null
+  },
   "blocked_hosts": {
     "kelee.one": "Cloudflare access block; upstream file was not returned"
   },
