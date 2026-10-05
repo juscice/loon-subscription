@@ -6,6 +6,20 @@ import io, urllib.error
 
 class UpdaterTests(unittest.TestCase):
     def tearDown(self): update.BLOCKED_HOSTS.clear()
+    def test_ling_ai_policy_and_ipv6_conversion(self):
+        rows=update.ling_rules('# > Claude\nDOMAIN-SUFFIX,claude.ai\n# > ChatGPT\nIP-CIDR,2403:300::/32,no-resolve\n','AI.list')
+        self.assertEqual(rows[0][2],'Claude');self.assertEqual(rows[1],('IP-CIDR6','2403:300::/32','ChatGPT',['no-resolve']))
+        with self.assertRaises(ValueError):update.ling_rules('UNKNOWN,example.org','AI.list')
+    def test_ling_dedup_and_priority(self):
+        body='DOMAIN-SUFFIX,example.org\nDOMAIN,api.example.org\nDOMAIN-SUFFIX,new.org\nDOMAIN-SUFFIX,new.org\n'
+        def mock_refresh(item,offline):
+            return {'url':item[0],'kind':'rules','status':'ok'},body if item[0].endswith('Apple.list') else ''
+        source='[Rule]\nDOMAIN-SUFFIX,example.org,Apple服务\nDOMAIN-SUFFIX,apple.com,Apple服务\nFINAL,FINAL\n[Remote Rule]\n'
+        with tempfile.TemporaryDirectory() as d,patch.object(update,'ROOT',Path(d)),patch.object(update,'refresh',side_effect=mock_refresh):
+            text,report=update.integrate_ling(source)
+        self.assertEqual(report['added'],1);self.assertEqual(report['duplicates_removed'],3)
+        self.assertEqual(text.count('DOMAIN-SUFFIX,new.org,Apple服务'),1)
+        self.assertLess(text.index('new.org'),text.index('apple.com'))
     def test_catalog_filters_and_deduplicates(self):
         import json
         u='loon://import?plugin=https://kelee.one/Tool/Loon/Lpx/Test.lpx'
