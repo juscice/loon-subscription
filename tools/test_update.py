@@ -6,6 +6,25 @@ import io, urllib.error
 
 class UpdaterTests(unittest.TestCase):
     def tearDown(self): update.BLOCKED_HOSTS.clear()
+    def test_catalog_filters_and_deduplicates(self):
+        import json
+        u='loon://import?plugin=https://kelee.one/Tool/Loon/Lpx/Test.lpx'
+        body=json.dumps({'lists':[{'url':u,'tag':['去广告']},{'url':u,'tag':['功能增强']},{'url':u,'tag':['签到']}]})
+        entries=update.catalog_entries(body)
+        self.assertEqual(len(entries),1)
+        with self.assertRaises(ValueError):update.catalog_entries(body.replace('kelee.one','untrusted.org'))
+    def test_catalog_adds_enabled_preserves_existing_disabled(self):
+        import json
+        a='https://kelee.one/Tool/Loon/Lpx/A.lpx';b='https://kelee.one/Tool/Loon/Lpx/B.lpx'
+        body=json.dumps({'lists':[{'url':'loon://import?plugin='+u,'tag':['去广告']} for u in [a,b,b]]})
+        source='[Plugin]\n'+a+', enabled=false\n[Mitm]\nhostname = example.org\n'
+        with tempfile.TemporaryDirectory() as d,patch.object(update,'ROOT',Path(d)),patch.object(update,'download',return_value=body):
+            text,report=update.integrate_catalog(source)
+            self.assertIn(a+', enabled=false',text);self.assertIn(b+', enabled=true',text)
+            self.assertEqual(report['added'],1);self.assertEqual(text.count(b),1)
+            with patch.object(update,'download',side_effect=OSError('offline')):
+                fallback,r=update.integrate_catalog(source)
+            self.assertEqual(r['status'],'fallback');self.assertEqual(text,fallback)
     def test_cloudflare_block_is_classified(self):
         e=urllib.error.HTTPError('https://kelee.one/a.lpx',403,'Forbidden',{},io.BytesIO(b'<title>Attention Required! | Cloudflare</title>Sorry, you have been blocked'))
         with patch.object(update.urllib.request,'urlopen',side_effect=e):
