@@ -29,6 +29,22 @@ https://raw.githubusercontent.com/juscice/loon-subscription/main/dist/loon.conf
 | YouTube、Spotify、社交、流媒体 | 各自独立策略组 | 在对应组中换地区或指定节点 |
 | 未命中的请求 | FINAL 策略 | 按实际需要选择通用代理或直连 |
 
+### LingJing 规则补充
+
+参考 [LingJingMaster/Shadowrocket-Rules](https://github.com/LingJingMaster/Shadowrocket-Rules)，每轮自动更新读取其 8 个规则文件，转换为 Loon 本地规则并按匹配条件、策略去重；同策略的父域名已覆盖子域名时也去重。保留现有 ChatGPT、Claude、Gemini 独立策略，补充其他 AI、邮件、Apple 推送、香港银行与券商分流。补充规则在宽泛 Apple / Google 规则之前匹配，原有国内银行直连规则保留。
+
+| 补充服务 | 默认策略 |
+| --- | --- |
+| 其他 AI / Apple AI 相关端点 | AI服务：美国时延 |
+| 邮件传输端点 | 邮件服务：通用代理 |
+| Apple 推送域名 | 苹果推送：通用代理 |
+| 汇丰香港、其他香港银行 | 各自策略：DIRECT |
+| 富途、长桥、老虎、雪盈、盈透等券商 | 券商服务：香港时延 |
+
+GitLab、Atlassian、BiliBili 使用 blackmatrix7 的 Loon 规则文件，分别归入 GitHub 策略及 DIRECT。微信本地回调固定为 `127.0.0.1`；豆包、DeepSeek 和局域网反向解析域名优先直连。券商如需固定出口，可手动选择单节点；代理不能保证开户、交易或地域授权。
+
+不直接导入 Shadowrocket 配置语法。上游银行 URL 路径规则未自动添加，避免扩大 HTTPS 解密范围；Apple 推送仅按域名分流，不将所有 TCP 5223 流量都归为推送。已有 HTTPDNS 插件保留，不叠加另一套拦截规则。DNS 与 MITM 沿用 Loon 当前设置。
+
 DIRECT 使用设备当前网络直接连接；中国大陆用户使用时，国内服务通过本地网络访问。银行直连和绕过 TUN 能减少代理干扰，**不能隐藏 iOS 的 VPN 状态**；银行仍提示 VPN 时，暂时关闭 Loon 后重试。
 
 ## 3. HTTPS 解密：生成、安装、信任、开启
@@ -121,6 +137,34 @@ python3 tools/update.py
 参考：[Loon MITM 文档](https://nsloon.app/docs/MitM/) · [Loon 脚本文档](https://nsloon.app/docs/Script/script_v2/) · [Loon 通用配置](https://nsloon.app/docs/General/) · [Apple 根证书完全信任](https://support.apple.com/zh-cn/102390)。
 
 说明核对日期：2026-10-06。原作者和上游来源保留在配置与插件中。
+
+### LingJing 补充规则许可
+
+以下许可适用于从 LingJingMaster/Shadowrocket-Rules 引入的补充规则，其他上游资源仍遵循各自许可。
+
+```text
+MIT License
+
+Copyright (c) 2026 Ling_Jing
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ## 7. 本次插件同步故障诊断（2026-10-05）
 
