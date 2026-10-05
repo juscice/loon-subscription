@@ -1,0 +1,2547 @@
+{
+  "resources": [
+    {
+      "url": "https://github.com/NSRingo/GeoServices/releases/latest/download/iRingo.Maps.plugin",
+      "kind": "plugins",
+      "path": "upstream/plugins/6c5e6c79e96cc2b0e27e.lpx",
+      "status": "ok",
+      "error": null,
+      "sha256": "345552f14fa2ac9755e3fcbc69ac073ba65430810fe6bbc73799c542836985fc"
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/12306_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/cd1c15bee21fa8c613c0.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/123NetWorkDisk_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9da146c355ffa0b0a359.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/2bulu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d8ae06b6454f55e7b6b3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/360SmartCamera_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4c674bb7a168130c64c5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/36Kr_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/51ef194b111d31f204fa.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/51Job_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/445ed95e3c384a2ae4c1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/555DY_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c88fcc52d7cc08e759f4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/5EPlay_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1209271be136143fcbc7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/91160_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b86b1d220097d4cd4bff.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Aiinquiry_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ca2b36a2cc606c17d446.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/AlcidaeVideo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/aefe8e4569127c839cb1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/AliYunDrive_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b2f467fa6520ffb24836.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/bb094d111cfe5e6ea9b0.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d0bacdcb998bf939cf05.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/AutoHome_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/82328c6b2995e3d02038.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ba9248cad5a1c0b968b4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/AxWorkSchedule_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/fcbb549aa85d716a9829.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BabyTree_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/2506081d5db502197f38.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduMap_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/03564107b7dc663c0ee5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduNetDisk_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/21e898e7f6ba91fee2e2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduPhoto_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6d067deca059560f11e9.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduSearchWebpage_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/38f30bf4af0f7992b798.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduTranslate_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/bf2a376bba52411e2408.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BaiduWenku_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/922fd12df0a943f4174e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Baidu_input_method_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9b6196b0b6df6c021017.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Beike_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7937281d7886547f3a71.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BiliComic_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/58f462494a00c74c41e2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/52463873cf94bc582e1b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BitqiuPan_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/54a6d693cbd99bebbd90.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Bixin_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/64197c9ed628b8e934f3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/13ae9c004c35338babd3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/07ae818df1aff0bc613c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BodianMusic_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c6a2e1830540da26378a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BooHee_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3e0f67445eb527c175ff.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ac2871ae30e437293d42.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CCLive_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/51af0d1b083c3959d7e6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CSG_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/730a1f503bab4bb6fe8c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Cainiao_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1f0e031b115519b32a39.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CaixinMedia_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/202f5711678aaf1b2139.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CatEarFM_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3d3e15627364c4349425.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Cece_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/94149b9be927f854650d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ChaoXingStudy_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6462737aeed81ae36398.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ChatCam_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/384fbf9678954326845c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Chelaile_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d2bd38bf2608f228014b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ChengFenMiao_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a114c8e0aa6c5f586f81.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Chuzhan_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a4ef02264d12cfca01b6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ColorfulClouds_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c6ebf05edd15a43f883d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CoolApk_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e09685ae617dac445c4a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CosmosPodcast_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f2b6d181bae1d35872ba.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/CrazyRope_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/8c9fd50b031f8ba370a7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DREAME_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e9f75ce8d480109115c3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Daily_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/2ce993e653af32488c3d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Damai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/db3803fa7917804c935d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Dayima_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b35228deda80eb4796a1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Dewu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b67b1cd77b33a9291d10.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DiDi_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c4d2159013cd67379ff9.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DidaPincheTaxi_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ad854ee075f17ee73e98.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DigitalHeartbeat_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c8ea47fb26c562d94346.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DingdongMaicai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/93c7802a9d99afd280ab.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DjDuoDuo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/84823368750a93cade42.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Dlabel_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/09ee6c45a77127f368b4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9301086c246426e13eed.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DoubanRead_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/fe02a46e520e3539e051.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Douyu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/222937a210fa80244e8f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DragonRead_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e4f6591abbfb1c96aa34.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DubbingShow_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/dca58aa98630ca7177ce.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/DuiTang_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a80cf5c7f2ca858cf860.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/EasyBike_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a22a58da6b8f24eae118.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/EasyCharge_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/90861fdaf092bff2a387.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/EcovacsHome_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/51c49c1b54774ba5a580.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/EtouchEcalendar_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/da4d3b08410b967aa35b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/FC_Box_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c076cc47ee872de9bfee.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/FenBi_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b1c544b5f8ded85ebeba.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/FerrisWheel_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d2208687dcbc0bb37fda.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Fileball_mount.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/76c6e1f1c7e0c97cd543.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/FinanceNews_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/492ee6fe0a9c5bd99656.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/FleaMarket_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/407c33d3266401eb0c63.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/FlyerTea_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/712d9c7d7e532b3a6d49.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Foodie_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/fb77fa770445ae518513.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/GaoDing_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/8fa6ccc444b5310431d0.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Google.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/0422e728c7e19dd7820c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/GuideRank_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/0c176068c23758934618.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/HKDouYin_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3050754d733f831d443e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/HUPU_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/13a6d39ef9576c1bc0e3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/HantingHotels_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/87afe15b73237a1ecf90.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/HeartideBrainWave_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1a55ca45659a7cec0688.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Himalaya_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/8da979733b0bae6dc8d7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/HongKongToolbar_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e0df0081e80d90e3a0ae.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Huxiu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/bc054a16c3d2f4934dbe.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/IPATool.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f3921ed959acc5f5bc49.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/IThome_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/afc225dc5a21173f215f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/JDWaimai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/bd069c05643d6c7c86bf.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9d1e4a267d960be3ba41.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/591cc73c8f61af1c6dfc.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/JiaKaoBaoDian_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ffb2e5a752ab3fe78cf2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/JiaXiaoDrive_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/62cbfe6a482d55eeb6f6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Jin10Data_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a6f69d192c41c056636c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Jump_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/8a1164100d9616cfc451.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KGRing_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/0bfee127a23c968825bf.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KOOK_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f3b3c84f48d600f90f9f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KebidaDushu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7fb4466293475581939c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Keep_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b06db0db59c24ed336ad.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KingdeeMyMoney_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e5b52f3ada92abcf9418.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuGouYouth_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/43ef5b2fc3f22d7441de.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuGou_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/392f103f4854f9205abf.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuaiDi100_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1bcfa63fe8d446e9f9c1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuaiDuiZuoYe_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a3e11a49c919e1dd34fc.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuaiKanComic_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c3ae9c04426568a2698f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuaiShou_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/5463abc16a91b6b3795f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KuroBBS_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/977dfb33ae0d1d0d2973.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Kuwo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e31190520f84088faa33.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/KwaiVideoeditor_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4e5c526f18fd6b2c04ef.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/LOL_Bible_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4eeaf4d6f8a9fb677b10.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/LZMH_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6fbecc8e6e2afa0406d7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Line_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/10992342d655550e0d99.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/LiveLab_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/43e0008678cf4c1204e2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/LuckinCoffee_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/829c34c5317aee26e483.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MKZ_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/fbbb4d21f27d5e5428d5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MaFengWo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7615bdf5818efb5a4e39.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MaiMai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/5a2ffd50f09d686c5dfe.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MailMaster_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1eb12b3cb2e51b6307cd.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MangoTV_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e8cf858a34f24fa77c7e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MeetYou_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6174f6c26a19512d3735.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MeiRiSaiChe_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1729c921f535d7df8738.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MeiShiJie_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3f4a1a6c36b8598f16b0.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MeiTu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4a94b81b8e9a1623e21b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MeituMYXJ_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/cce261c30c7154bef21a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Meizhixiuxing_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7a99429e3eb242091590.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MiaoRead_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/bf3a4baa014ab5b25d23.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MoeGirlWiki_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a4f7a12da50aab099c0a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MojiWeather_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9825ed00431d8223fa6b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MotorFans_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4b0107c5c07a72759647.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MrHema_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d79dce645d7ffa01b8f2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/MyFriday_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/47aba16c9adfe9f107c3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/NarwelRobots_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4172ed9636399ab7697b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/NetEaseGodlike_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/643428ca296dc6088988.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/NeteaseCloudMusic_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/662720b7e88ff72a4aa9.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/NeteaseNews_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/55cd401e56729beec2ae.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/NodeLinkCheck.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a9492e9c33a0aad558d2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/017181f8335ddaa8b92f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/OKOK_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a0f87d6469a88547b2f7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/OnTheWay_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/2e79edf398b4be702876.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/OraySunlogin_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ce1d4e4fb3fa7ee36b0d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PICC_Insurance_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/781f00d433668b618ad7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PICOOC_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/091554accb8153d8826d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PangguaiLife_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/65d0c3b0978eb8baaddc.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PerfectWorldEsport_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6138512a7adafbdd5704.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7480991b91c6b5ca0f1d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PinDuoDuo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c7d7c8af8bf65ee73a0b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Pinterest_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9fbe176477174490b19a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/PuPuMall_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b8885688e470e8ad7a2e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QQKSong_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/64cf5a4feb51e83daeed.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QQMusic_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4a942658051618b78a18.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QQ_Redirect.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e8f1cba5708b620dc48e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Qbb_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ec7e99b2238e7f794176.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QiDian_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7651e34d1bfe8de4188b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QiXinBao_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6972604b918547e00ee2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QtingFM_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c7545162919c071833e0.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QuarkBrowser_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ab771b07a1fd283edd7c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QuarkScanking_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/96eff5134b4578ca5a41.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4140d68a3b60af062ff2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/RQrun_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1bc313adad0f42fe8c1e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/RedPaper_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d8e3640b4184f9cca9f6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Reddit_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/dacecbac58779d745a88.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ReelShort_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6fde84d3b5b08fcdd997.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/282c7dbc3e7e0d174edd.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/RiskBird_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ca35a1d7870b1d395611.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/RoboTaxi_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/30629677f4c008ed5c50.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Roborock_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/fa392c20b42da09a51ac.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SF-Express_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/2377ab4275064aef5132.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SafetyHome_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d531d60c58731667ebcf.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/cbabee31ae7fe2b7c661.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SeasunJX3_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3102fbe25ff6c6883999.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SevenCat_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c69aea58f4bec0ed293b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ShandongSchool_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4242f071f2e9a1b7c642.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ShopKeeperAdmin_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/766a8f378ab2012e1e85.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ShouYinTongMerchant_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b1fff8275f136b63e0f1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ShoujiDesk_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d8d5d30391bfea7d9585.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ShuQiCenterReader_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/47901563285aa9290865.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SinaStock_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/9273a806be6a7aa40fde.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SkyworthDigitalPicamera_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c989294b0af1fe58bdf5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SmartLife_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/db1882eb03da8371b3e2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SnailSleep_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/29426ae6cfc2a0e195e1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SnowCamera_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/214279cda9eb8d4f8e1d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Snowball_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6330fe69e8964ed7c06f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SodaMusic_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f3b8e568aeaa41256d92.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Sofascore_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ca2a8eb538c1bf97fcfd.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Soul_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3be9af9401da39daca0d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Spotify_lyrics_translation.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f92004835cd0c7f6b0dc.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Spotify_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3f18f7119d8694f9e655.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/SuZhouCitizenCard_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f61e686df97c6a95887b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Switch_github_mirror.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d29d7a7c0508c04e8a41.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TCLnScreen_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b377a41097648b1251cb.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TV_Assistant_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/0e3f431d9ab6108ccc94.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TXDocs_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3e5538a2f91a4ed04bd7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TaobaoTravel_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a226ecb3ca51a2e739ae.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/0bcada8bb28c9e00c43b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Taopiaopiao_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/17784877abde4219c9c1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Taqu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4acb17d700f7bb49638d.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TelegramRedirect.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/681ddd3f8e201cf6841a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Tencent_Video_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/355122a689dfe25eb2b6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TeraBox_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6e66976633272ece2fc1.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a1c818575051f971943c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TianQiTong_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/56f92fea94f97c6f70cc.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4e1740f0d3845e07fbe4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TmallCampus_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7c26ed5740513b71faeb.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TuGuaiShou_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/8eb8318a88ce3c3612c2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/TubeMax_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/2508bea0c63e87a3ccd4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Tumblr_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/886ffaf7ab4e8b7cff73.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Uki_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/065f5f270d05c08fb6d6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Umetrip_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/17a3ed53b0c5e0e4003e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/VVebo_repair.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f38168322596a9e0d044.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ValorantBible_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ddde07217533029d0558.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/VideoGo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4989ed3c774fae7f113a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WARP_Node_Query.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/972a0c0feef058bd7a6e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WPForum_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/5698e9801cfa1ce1e4d4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WPS_Documents_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1432a83628b2848ad8ec.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WaCaiJiZhang_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d7c57227b32ac7dc28e8.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Wacai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/462ca86c54e4c97081de.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WakeupSchedule_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1200a43bf0552718ee6c.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Walmart_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/85f71ce7994338ace950.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WeatherChina_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/433e7cc21212460770ec.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weibo_intl_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ea6a94471e6ea0c765a7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e21a448bd2905a6982d4.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weidian_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/57df6e2a3598a7ac02a5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weimai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d351891160e93f34af36.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3c058c23d3209013ff9b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f4bde74bd6a9bde4a5c7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/d2574f64936bf6b3d6a0.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/WutaCamera_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f07f17b9428b9dc5da16.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XFuse_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/842ca26fd284cf4b2bac.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaChuFang_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b8efde8a157bda2b69f8.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaoCan_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3826a3b0c83472f9d8a3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaoHeiHe_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/2cdf66a5ecda8b9649b9.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaobaiPrint_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/33ba08aff5177e218000.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaojukejiCharge_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/4ff8007153c73be51348.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XiaomiSpeaker_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/ae776a83f37943fc2834.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/XunLei_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/6ef1538d5f7ff0780764.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YYVoiceTool_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/eda47b8262311c190cdd.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YY_Voice_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/338d6fdd05139b113516.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YiKaoBang_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f6a827e07b3562a03135.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YiSchool_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/de2d9dc343f152593502.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Yitian_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/3eebf2cb5fa1c3712468.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YouKu_Video_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7b87eea85b5bb8acf2c7.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YouTubeSubtitlesTranslation.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/7b50771cbc9c37743187.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YouTube_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/dccc33226cc9d16d5b9e.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YoudaoDict_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/b35536d7742ba4a14b75.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YoudaoNote_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/e8c95d5c67fa7cfa7279.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YoudaoTrans_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/70dff020ab7559ab38b5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YueDanBa_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/664020e0eb1efb7a94ee.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Yueyou_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/cb4dccc116ead861e620.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/YunmaiScale_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c39fe504c1e6a9d4104f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ZAKER_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/c35a548fb562b03ce521.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ZhiLianZhaoPin_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/10fc09a7b1bfdcd8b12f.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Zhibo8_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/92858d9111f03c088eb2.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/387f9ccb4f0bb059fdb8.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ZhuanZhuan_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/53e5360426ca95d2a22b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ZongHeng_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/560a7cd3f45380936fd5.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ZuiYou_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/f7d7594dedb02b694461.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/iMaiCai_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/a7c7e3aeb0f1169e87a6.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/iQiYi_Video_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/27da58078e9c06fdbd7a.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/iReaderCityWeather_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/1024370ac5415f262c42.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/iReaderDejian_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/92742874e5e73176f846.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/iReader_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/76b9db250bae82727f92.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/iWallBiZhi_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/361e13d9230533097d83.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/ifengNews_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/177771e891b33dc9fb78.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/marki_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/582ec23f523665d3b198.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/miHoYoBBS_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/8de7e90582555d2c5e0b.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/mobileClouds_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/5f414f36e0389badf9d3.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://kelee.one/Tool/Loon/Lpx/smzdm_remove_ads.lpx",
+      "kind": "plugins",
+      "path": "upstream/plugins/39517e72612f902a2f46.lpx",
+      "status": "unavailable",
+      "error": "HTTP Error 403: Forbidden",
+      "sha256": null
+    },
+    {
+      "url": "https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/txwxds.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/e20863d2b6629c20636c.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "6f4886e92bb7c9eac1a87c0d00fd98394ad4a6014bea91e40a875ffb44b1db7c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/ydybj.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/95cb34f19dc99d7f5feb.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "d2082cca01efea4088d3f31f017c1951582ce3595ca200c0031b2903e7ddddfb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Guding88/Script/main/APPheji_Revenuecat.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/24ecfac658a79dc4c535.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "6c2ab88719369e36aea3ca2cf553ec8944686055686472e987da3f3ceb9de902"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/WPSOffice/Script/WPS.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/ff4a8044bd59c3927acb.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "4990073a709f73367ce41330a46155bfebc5c6b2fc9a0cda0b3f1c5626591c55"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/Xmind/Script/Xmind.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/002dd074d1ce16b3f749.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "efa97fe95f5c2a4b8b59eeb2d47313feb16f70f43e45ed7858209db8b9a79cfc"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/myFitnessPal.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/9f137879da97537fcfa9.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "fc5591e3735f26c1969c32c4347c59d57c5a5a0fa2ed2b646831de275e76f9a6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Marol62926/MarScrpt/main/naiyou.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/a23d8ab44063b61048f5.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "cd5c6a4fd19b3889c56cf01c50e67260b9997d84138be4cf2c008d2202d3b641"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/19e854a6a76d625afcc2.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "95ecdbed477540cfd4eacd1f7f2f79eb8c4736912c64967c1dde40148bd1024a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/PicsArt.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/30c16017fc2e94f11e2f.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "e470b8fea2d9117782d32f39024e8e7eff48fb43a111300be62da8980896793d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ABC/ABC.list",
+      "kind": "rules",
+      "path": "upstream/rules/6f86aeaffe119dc57972.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "695955a9cef29d62b733dcbd77047f3958d8f6c42149dc89c4241ca456fcde06"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/AdvertisingLite/AdvertisingLite.list",
+      "kind": "rules",
+      "path": "upstream/rules/fc1be238132d0812de17.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "613a96d2485716a9bdb663844d947267cd6c344d6d7461ad3b579c3c4f5aea41"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Apple/Apple.list",
+      "kind": "rules",
+      "path": "upstream/rules/a0301e70beccc3bfeab1.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "6397d4ab84a5f05b9cdf79ad746e0ddad4eef8951facbe2e6afb54b6f10e451d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOC/BOC.list",
+      "kind": "rules",
+      "path": "upstream/rules/89e80b90c13209523d86.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "728311dda26e89a70d3157aa79c7fb3c9b186fb7a34131058ec53d7761c49c22"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOCOM/BOCOM.list",
+      "kind": "rules",
+      "path": "upstream/rules/2b0f558062cebf7eb663.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "eca473c71e7ef3c215a1bc0a2780a583b69ad2ba3637edeac8dcac06c3113ff2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CCB/CCB.list",
+      "kind": "rules",
+      "path": "upstream/rules/2e9d18ba2378a82b64cb.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "359b1c5f978e63fe77cc69a847d5abaa6e14fd77f27889ef9522d2f266008559"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CMB/CMB.list",
+      "kind": "rules",
+      "path": "upstream/rules/d75b1f282bb13142a704.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "f74e32d571eb603904e33e5cd965c820063c60ab9b1bc9439df588aeac39fea6"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ChinaMax/ChinaMax.list",
+      "kind": "rules",
+      "path": "upstream/rules/17dd09d5b2369bfcc8b2.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "ca4a6d682f6401ffc4f4bd2067081c444fbaca055f062395b30a1749f8520cb1"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list",
+      "kind": "rules",
+      "path": "upstream/rules/3a4d859c64e42fd900ac.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "870e7e25d798e7f00338507f773b0eea4dfd15e25e9df0a27d5ae421ae1ab378"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Discord/Discord.list",
+      "kind": "rules",
+      "path": "upstream/rules/48c11b0fde695e042b6f.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Disney/Disney.list",
+      "kind": "rules",
+      "path": "upstream/rules/763c3b7763cae4080255.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "65ededc7b608e440f3d918f6e95b19ca52460c8fe368dbd9e840b4bc8669f753"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Facebook/Facebook.list",
+      "kind": "rules",
+      "path": "upstream/rules/3c74861d721bd8e847a4.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "39b012e0dd7b4f824a9388a27229b05b2c1bf8fb870ced8846f853dfc5752381"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Gemini/Gemini.list",
+      "kind": "rules",
+      "path": "upstream/rules/5cba728826afdf2d7781.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitHub/GitHub.list",
+      "kind": "rules",
+      "path": "upstream/rules/cefd9da2c63473d09183.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list",
+      "kind": "rules",
+      "path": "upstream/rules/a75b73273705b8b6294e.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "8ad1014c13d43d907bf4b22095e2b74e8f5488abfc4ef5b6f4a9a4331897fd6a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/ICBC/ICBC.list",
+      "kind": "rules",
+      "path": "upstream/rules/db0bc7eea0c241413ce1.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "24021bd1f25cf7457211197ba9ee8d60e4607d2a72d7fda6686c6616d89234c8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Instagram/Instagram.list",
+      "kind": "rules",
+      "path": "upstream/rules/13561a3825a93de34069.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "65f28f9253b0dbb2a81485c788537896a0817766685e7bd91b2f90ec7aa19548"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Lan/Lan.list",
+      "kind": "rules",
+      "path": "upstream/rules/49cacb091272b2ee0dab.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "4defb821f8900e6a2c3b1e1b8d12fefc8cfc190f9e6f5cdd5219eda8ed304532"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list",
+      "kind": "rules",
+      "path": "upstream/rules/586eb79c1b6c037e968c.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "22df1a1017ad5d41755bf020ca8eb9afeedc7bdc2c649ed2074b255227a7ed8e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Netflix/Netflix.list",
+      "kind": "rules",
+      "path": "upstream/rules/598790caddb7062da890.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "ecf67cdae0468902b9b72f028d22b3bbe2c5e12607c855d2c108c6f7d497113a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/OpenAI/OpenAI.list",
+      "kind": "rules",
+      "path": "upstream/rules/ec97fcc8673284111d7c.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "3a0f865b94d4981e2e44cd771410746cd6bdd22f4246c02be3f273ae7688eeb0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/PayPal/PayPal.list",
+      "kind": "rules",
+      "path": "upstream/rules/5b33775125f732c69945.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "4ffb6f94d2f1eff835c24b533c3d1d6e0c5a4cfbc32740fa9c32315ae218fd18"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Spotify/Spotify.list",
+      "kind": "rules",
+      "path": "upstream/rules/5dac4617a48a590736e5.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "577afc9442a38c578e0aa8769b192d2f935e808114c60cbd5afd2294c79b74d0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Telegram/Telegram.list",
+      "kind": "rules",
+      "path": "upstream/rules/369918e1acd253dcc5f7.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "f4b423def4d7e47e99f668e76594ec670b552888b9e1ad23a7adbc65e7400887"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/TikTok/TikTok.list",
+      "kind": "rules",
+      "path": "upstream/rules/a8234984f162844be05f.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "403dccb2d51606d73db9e669e82cc1d9030c7e697756ae13d9f8f5fea53c151a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Twitter/Twitter.list",
+      "kind": "rules",
+      "path": "upstream/rules/7403b8cb256302333a68.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "64c836f2431ca0d4728cc545bb74280ee50c886e346040012e6cdd2f3eee3f97"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/UnionPay/UnionPay.list",
+      "kind": "rules",
+      "path": "upstream/rules/32234fe20a8e5a07eebb.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "cf603ac5ee90f5869a4a119cec8b90eab865c6388858be4d97d196bff9a38187"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Whatsapp/Whatsapp.list",
+      "kind": "rules",
+      "path": "upstream/rules/be3b105b4ad0b10e17a9.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "644fd145b484079ff65f681deb17a6dbf1aff620afea56b1a3c24d29d9f9db4f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/YouTube/YouTube.list",
+      "kind": "rules",
+      "path": "upstream/rules/833af04582e14c5b9421.list",
+      "status": "ok",
+      "error": null,
+      "sha256": "aba3aab10f9acdaa9c3120b808acd94674fa89e31079aeb299438a4ad690158b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/deezertidal/private/main/wnds.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/e24d67be1bd5aad09f87.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "5d3fcc21ef2a017e717df49eaa4da9d8fe1941ca817416b71b569f4796a9b45a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/lightroom.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/06eb24d347ee519c4fc1.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "35dbd85104292b00d6ff7fe5ad2b9a339657c12f687f8d8c23de6dde5b1702a3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/meipian.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/9781521a787c8f6932a5.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "1adc7584fb0fad6b7f382bd14171559dba33d09f0d1069eca85fa61618c664bf"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/notability.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/f88b0b113fcdaebd6074.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "37eaa060dacff48c347969fbbb44d9ef05804168e59f05793ba9ea2a979d30b7"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/litieyin/AD_VIP/main/Script/photoshop.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/9e70d4743905a471d843.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "28fd6ddd275b70a0496cc104d707da951fae6d3c342d863da234b769dee66326"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/a6bd937f821487d6775d.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "751573cd6dca8ddd9b76b5fd22c00fab3e815fe3a144e46c39ad856623dbe74a"
+    },
+    {
+      "url": "https://github.com/NSRingo/GeoServices/releases/download/v4.6.1/request.bundle.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/9f62ead866912d7251f0.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "4483623a4b6b9cbef897b25e7881a03143461055696fc5a750af518165b96dc2"
+    },
+    {
+      "url": "https://github.com/NSRingo/GeoServices/releases/download/v4.6.1/response.bundle.js",
+      "kind": "scripts",
+      "path": "upstream/scripts/66c16c1343b49483327f.js",
+      "status": "ok",
+      "error": null,
+      "sha256": "4d6c18dca53c4ae85ac836a2d3d19f7be1a7fc32e2c74af5783ec6a62cb75fd0"
+    }
+  ],
+  "counts": {
+    "ok": 47,
+    "cached": 0,
+    "fallback": 0,
+    "unavailable": 270
+  },
+  "runtime_tested": false
+}
