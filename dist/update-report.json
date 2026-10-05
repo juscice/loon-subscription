@@ -8,6 +8,85 @@
     "existing": 263,
     "error": null
   },
+  "lingjing": {
+    "added": 262,
+    "duplicates_removed": 796,
+    "unsupported_url_rules_skipped": 1,
+    "sources": [
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/HSBC_HK.list",
+        "kind": "rules",
+        "path": "upstream/rules/f0c4ccedb73c49d3baf9.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "9dc67e45c4f2eedfee1ab7f2a5c143c866380f56db3e2d3e4f83adb5927a187b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/HK_Banks_Direct.list",
+        "kind": "rules",
+        "path": "upstream/rules/4cf4ffe0f3a9a32a8761.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "c7bc002172b6fc691fc18cd9d267dab05eed54d8878dcc4774d9dcdfae9cc145"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/HK_Broker.list",
+        "kind": "rules",
+        "path": "upstream/rules/c775058f07dc21a44033.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "8ab40480d0438c6ffd294ad62bdbf286174ee972430cee52aa0122f1db6f1174"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Mail.list",
+        "kind": "rules",
+        "path": "upstream/rules/9a87ad17d1885c1ed024.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "e07632eba794d965aa728d2fab7468704037e030b21e34127d77f1aacd153db0"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/ApplePush.list",
+        "kind": "rules",
+        "path": "upstream/rules/cab1c1c06f869894b903.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "078500e904a024b4efe3fb5c0637bf4271514ed5b91100feed98588e6564eae8"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/AI.list",
+        "kind": "rules",
+        "path": "upstream/rules/1ac7a77275b6bd261669.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "437ecda2f8736d829eda5b702b0802c53f71031a911f1332234d42c099ad3728"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Google.list",
+        "kind": "rules",
+        "path": "upstream/rules/b1a2030a55c29bafbfcc.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "f6eeba7b8465bec2b01950194746e7ed3d091931eb42b8fcc7d011a4b57b25c4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Apple.list",
+        "kind": "rules",
+        "path": "upstream/rules/79ed93fb3287f2eb9aa8.list",
+        "status": "ok",
+        "error": null,
+        "blocked": false,
+        "sha256": "1807a7c3357908e0a1c09eb6adc0be6106b59d2e2bc795f600470f6fdc73491a"
+      }
+    ]
+  },
   "blocked_hosts": {
     "kelee.one": "Cloudflare access block; upstream file was not returned"
   },
@@ -2896,10 +2975,82 @@
       "error": null,
       "blocked": false,
       "sha256": "4d6c18dca53c4ae85ac836a2d3d19f7be1a7fc32e2c74af5783ec6a62cb75fd0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/HSBC_HK.list",
+      "kind": "rules",
+      "path": "upstream/rules/f0c4ccedb73c49d3baf9.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "9dc67e45c4f2eedfee1ab7f2a5c143c866380f56db3e2d3e4f83adb5927a187b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/HK_Banks_Direct.list",
+      "kind": "rules",
+      "path": "upstream/rules/4cf4ffe0f3a9a32a8761.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "c7bc002172b6fc691fc18cd9d267dab05eed54d8878dcc4774d9dcdfae9cc145"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/HK_Broker.list",
+      "kind": "rules",
+      "path": "upstream/rules/c775058f07dc21a44033.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "8ab40480d0438c6ffd294ad62bdbf286174ee972430cee52aa0122f1db6f1174"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Mail.list",
+      "kind": "rules",
+      "path": "upstream/rules/9a87ad17d1885c1ed024.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "e07632eba794d965aa728d2fab7468704037e030b21e34127d77f1aacd153db0"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/ApplePush.list",
+      "kind": "rules",
+      "path": "upstream/rules/cab1c1c06f869894b903.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "078500e904a024b4efe3fb5c0637bf4271514ed5b91100feed98588e6564eae8"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/AI.list",
+      "kind": "rules",
+      "path": "upstream/rules/1ac7a77275b6bd261669.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "437ecda2f8736d829eda5b702b0802c53f71031a911f1332234d42c099ad3728"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Google.list",
+      "kind": "rules",
+      "path": "upstream/rules/b1a2030a55c29bafbfcc.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "f6eeba7b8465bec2b01950194746e7ed3d091931eb42b8fcc7d011a4b57b25c4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Apple.list",
+      "kind": "rules",
+      "path": "upstream/rules/79ed93fb3287f2eb9aa8.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "1807a7c3357908e0a1c09eb6adc0be6106b59d2e2bc795f600470f6fdc73491a"
     }
   ],
   "counts": {
-    "ok": 50,
+    "ok": 58,
     "cached": 0,
     "fallback": 0,
     "unavailable": 270
