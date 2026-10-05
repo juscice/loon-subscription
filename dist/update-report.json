@@ -2565,6 +2565,15 @@
       "sha256": "6397d4ab84a5f05b9cdf79ad746e0ddad4eef8951facbe2e6afb54b6f10e451d"
     },
     {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Atlassian/Atlassian.list",
+      "kind": "rules",
+      "path": "upstream/rules/891f12253036dfbb4953.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "243613384193edb80bcc0ee4106fc2b110c23b7c32f46258947be453f483ab9f"
+    },
+    {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BOC/BOC.list",
       "kind": "rules",
       "path": "upstream/rules/89e80b90c13209523d86.list",
@@ -2581,6 +2590,15 @@
       "error": null,
       "blocked": false,
       "sha256": "eca473c71e7ef3c215a1bc0a2780a583b69ad2ba3637edeac8dcac06c3113ff2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/BiliBili/BiliBili.list",
+      "kind": "rules",
+      "path": "upstream/rules/94ce744aa7a621f8ad5f.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "9b22a7bdf97792346bf480771841b6cd1097ec7ad034b34528c14f3798107854"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/CCB/CCB.list",
@@ -2662,6 +2680,15 @@
       "error": null,
       "blocked": false,
       "sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GitLab/GitLab.list",
+      "kind": "rules",
+      "path": "upstream/rules/c89a89b37253989ee41b.list",
+      "status": "ok",
+      "error": null,
+      "blocked": false,
+      "sha256": "0c41418dd3d49d6313c5516b1d828a39aa13e1c08b9750698b5e4ec5d7ba5f8c"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Google/Google.list",
@@ -2872,7 +2899,7 @@
     }
   ],
   "counts": {
-    "ok": 47,
+    "ok": 50,
     "cached": 0,
     "fallback": 0,
     "unavailable": 270
