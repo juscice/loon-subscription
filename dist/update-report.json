@@ -2704,7 +2704,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "29baf7efbfacaeb556719bf632fcfae2ab0ca798643360eb0ab2a686d05ee5da"
+      "sha256": "0bee864fbdc42a71c5bc959422a0c851d5a0ded1d01c535a885eae1adf04e8a7"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list",
