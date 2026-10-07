@@ -9,8 +9,8 @@
     "error": null
   },
   "lingjing": {
-    "added": 262,
-    "duplicates_removed": 796,
+    "added": 257,
+    "duplicates_removed": 795,
     "unsupported_url_rules_skipped": 1,
     "sources": [
       {
@@ -65,7 +65,7 @@
         "status": "ok",
         "error": null,
         "blocked": false,
-        "sha256": "437ecda2f8736d829eda5b702b0802c53f71031a911f1332234d42c099ad3728"
+        "sha256": "9c0c203698ffabbc61f1f48ae91120789d4de2b5d711e12a73d63c2ef4ada2e9"
       },
       {
         "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Google.list",
@@ -83,7 +83,7 @@
         "status": "ok",
         "error": null,
         "blocked": false,
-        "sha256": "1807a7c3357908e0a1c09eb6adc0be6106b59d2e2bc795f600470f6fdc73491a"
+        "sha256": "67c5791523018f216d955ab3453816011c2ff0f0430632033a459b8ef6fccff9"
       }
     ]
   },
@@ -3028,7 +3028,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "437ecda2f8736d829eda5b702b0802c53f71031a911f1332234d42c099ad3728"
+      "sha256": "9c0c203698ffabbc61f1f48ae91120789d4de2b5d711e12a73d63c2ef4ada2e9"
     },
     {
       "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Google.list",
@@ -3046,7 +3046,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "1807a7c3357908e0a1c09eb6adc0be6106b59d2e2bc795f600470f6fdc73491a"
+      "sha256": "67c5791523018f216d955ab3453816011c2ff0f0430632033a459b8ef6fccff9"
     }
   ],
   "counts": {
