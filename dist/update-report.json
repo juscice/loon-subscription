@@ -2641,7 +2641,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "6397d4ab84a5f05b9cdf79ad746e0ddad4eef8951facbe2e6afb54b6f10e451d"
+      "sha256": "aa9a6dc5e869eb21ad425610f07034b232a61a52ec7a806aa32b0bfb3d72b435"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Atlassian/Atlassian.list",
@@ -2704,7 +2704,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "92efbad79e1579eec1662aafe436ecba63c8b7f7223b3b55d8177bd25090d034"
+      "sha256": "5047ba6a8728d72953889c62522d8b3558294dfd665e94e87ad63f7cf637feb2"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list",
