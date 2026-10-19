@@ -2704,7 +2704,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "28918c238937cc41c661aaf91c9edc191c12353ac027dda1ebfa7604743385d2"
+      "sha256": "35afa8bc592e6de11f091169a97abea87b3032e4cd99764e08991ff77d4d1d43"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Claude/Claude.list",
@@ -2803,7 +2803,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "4defb821f8900e6a2c3b1e1b8d12fefc8cfc190f9e6f5cdd5219eda8ed304532"
+      "sha256": "65decf7849f37cbc66cff8e1155ea1d6344c748c6ead772db2f9e9c7e6a1d546"
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Microsoft/Microsoft.list",
