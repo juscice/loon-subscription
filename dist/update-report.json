@@ -87,7 +87,9 @@
       }
     ]
   },
-  "blocked_hosts": {},
+  "blocked_hosts": {
+    "kelee.one": "Cloudflare access block; upstream file was not returned"
+  },
   "plugins": {
     "total": 271,
     "mirrored": 1,
@@ -108,8 +110,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/cd1c15bee21fa8c613c0.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -117,8 +119,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9da146c355ffa0b0a359.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -126,8 +128,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d8ae06b6454f55e7b6b3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -135,8 +137,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4c674bb7a168130c64c5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -144,8 +146,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/51ef194b111d31f204fa.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -153,8 +155,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/445ed95e3c384a2ae4c1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -162,8 +164,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c88fcc52d7cc08e759f4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -171,8 +173,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1209271be136143fcbc7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -180,8 +182,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b86b1d220097d4cd4bff.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -189,8 +191,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ca2b36a2cc606c17d446.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -198,8 +200,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/aefe8e4569127c839cb1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -207,8 +209,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b2f467fa6520ffb24836.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -216,8 +218,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/bb094d111cfe5e6ea9b0.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -225,8 +227,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d0bacdcb998bf939cf05.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -234,8 +236,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/82328c6b2995e3d02038.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -243,8 +245,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ba9248cad5a1c0b968b4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -252,8 +254,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/fcbb549aa85d716a9829.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -261,8 +263,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/2506081d5db502197f38.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -270,8 +272,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/03564107b7dc663c0ee5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -279,8 +281,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/21e898e7f6ba91fee2e2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -288,8 +290,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6d067deca059560f11e9.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -297,8 +299,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/38f30bf4af0f7992b798.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -306,8 +308,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/bf2a376bba52411e2408.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -315,8 +317,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/922fd12df0a943f4174e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -324,8 +326,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9b6196b0b6df6c021017.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -333,8 +335,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7937281d7886547f3a71.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -342,8 +344,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/58f462494a00c74c41e2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -351,8 +353,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/52463873cf94bc582e1b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -360,8 +362,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/54a6d693cbd99bebbd90.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -369,8 +371,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/64197c9ed628b8e934f3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -378,8 +380,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/13ae9c004c35338babd3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -387,8 +389,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/07ae818df1aff0bc613c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -396,8 +398,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c6a2e1830540da26378a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -405,8 +407,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3e0f67445eb527c175ff.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -414,8 +416,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ac2871ae30e437293d42.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -423,8 +425,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/51af0d1b083c3959d7e6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -432,8 +434,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/730a1f503bab4bb6fe8c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -441,8 +443,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1f0e031b115519b32a39.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -450,8 +452,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/202f5711678aaf1b2139.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -459,8 +461,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3d3e15627364c4349425.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -468,8 +470,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/94149b9be927f854650d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -477,8 +479,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6462737aeed81ae36398.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -486,8 +488,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/384fbf9678954326845c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -495,8 +497,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d2bd38bf2608f228014b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -504,8 +506,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a114c8e0aa6c5f586f81.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -513,8 +515,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a4ef02264d12cfca01b6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -522,8 +524,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c6ebf05edd15a43f883d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -531,8 +533,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e09685ae617dac445c4a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -540,8 +542,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f2b6d181bae1d35872ba.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -549,8 +551,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/8c9fd50b031f8ba370a7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -558,8 +560,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e9f75ce8d480109115c3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -567,8 +569,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/2ce993e653af32488c3d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -576,8 +578,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/db3803fa7917804c935d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -585,8 +587,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b35228deda80eb4796a1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -594,8 +596,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b67b1cd77b33a9291d10.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -603,8 +605,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c4d2159013cd67379ff9.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -612,8 +614,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ad854ee075f17ee73e98.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -621,8 +623,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c8ea47fb26c562d94346.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -630,8 +632,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/93c7802a9d99afd280ab.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -639,8 +641,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/84823368750a93cade42.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -648,8 +650,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/09ee6c45a77127f368b4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -657,8 +659,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9301086c246426e13eed.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -666,8 +668,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/fe02a46e520e3539e051.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -675,8 +677,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/222937a210fa80244e8f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -684,8 +686,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e4f6591abbfb1c96aa34.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -693,8 +695,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/dca58aa98630ca7177ce.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -702,8 +704,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a80cf5c7f2ca858cf860.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -711,8 +713,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a22a58da6b8f24eae118.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -720,8 +722,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/90861fdaf092bff2a387.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -729,8 +731,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/51c49c1b54774ba5a580.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -738,8 +740,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/da4d3b08410b967aa35b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -747,8 +749,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c076cc47ee872de9bfee.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -756,8 +758,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b1c544b5f8ded85ebeba.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -765,8 +767,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d2208687dcbc0bb37fda.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -774,8 +776,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/76c6e1f1c7e0c97cd543.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -783,8 +785,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/492ee6fe0a9c5bd99656.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -792,8 +794,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/407c33d3266401eb0c63.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -801,8 +803,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/712d9c7d7e532b3a6d49.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -810,8 +812,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/fb77fa770445ae518513.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -819,8 +821,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/8fa6ccc444b5310431d0.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -828,8 +830,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/0422e728c7e19dd7820c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -837,8 +839,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/0c176068c23758934618.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -846,8 +848,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3050754d733f831d443e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -855,8 +857,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/13a6d39ef9576c1bc0e3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -864,8 +866,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/87afe15b73237a1ecf90.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -873,8 +875,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1a55ca45659a7cec0688.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -882,8 +884,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/8da979733b0bae6dc8d7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -891,8 +893,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e0df0081e80d90e3a0ae.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -900,8 +902,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/bc054a16c3d2f4934dbe.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -909,8 +911,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f3921ed959acc5f5bc49.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -918,8 +920,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/afc225dc5a21173f215f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -927,8 +929,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/bd069c05643d6c7c86bf.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -936,8 +938,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9d1e4a267d960be3ba41.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -945,8 +947,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/591cc73c8f61af1c6dfc.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -954,8 +956,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ffb2e5a752ab3fe78cf2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -963,8 +965,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/62cbfe6a482d55eeb6f6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -972,8 +974,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a6f69d192c41c056636c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -981,8 +983,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/8a1164100d9616cfc451.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -990,8 +992,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/0bfee127a23c968825bf.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -999,8 +1001,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f3b3c84f48d600f90f9f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1008,8 +1010,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7fb4466293475581939c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1017,8 +1019,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b06db0db59c24ed336ad.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1026,8 +1028,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e5b52f3ada92abcf9418.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1035,8 +1037,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/43ef5b2fc3f22d7441de.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1044,8 +1046,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/392f103f4854f9205abf.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1053,8 +1055,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1bcfa63fe8d446e9f9c1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1062,8 +1064,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a3e11a49c919e1dd34fc.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1071,8 +1073,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c3ae9c04426568a2698f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1080,8 +1082,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/5463abc16a91b6b3795f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1089,8 +1091,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/977dfb33ae0d1d0d2973.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1098,8 +1100,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e31190520f84088faa33.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1107,8 +1109,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4e5c526f18fd6b2c04ef.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1116,8 +1118,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4eeaf4d6f8a9fb677b10.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1125,8 +1127,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6fbecc8e6e2afa0406d7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1134,8 +1136,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/10992342d655550e0d99.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1143,8 +1145,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/43e0008678cf4c1204e2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1152,8 +1154,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/829c34c5317aee26e483.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1161,8 +1163,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/fbbb4d21f27d5e5428d5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1170,8 +1172,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7615bdf5818efb5a4e39.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1179,8 +1181,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/5a2ffd50f09d686c5dfe.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1188,8 +1190,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1eb12b3cb2e51b6307cd.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1197,8 +1199,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e8cf858a34f24fa77c7e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1206,8 +1208,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6174f6c26a19512d3735.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1215,8 +1217,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1729c921f535d7df8738.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1224,8 +1226,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3f4a1a6c36b8598f16b0.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1233,8 +1235,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4a94b81b8e9a1623e21b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1242,8 +1244,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/cce261c30c7154bef21a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1251,8 +1253,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7a99429e3eb242091590.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1260,8 +1262,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/bf3a4baa014ab5b25d23.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1269,8 +1271,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a4f7a12da50aab099c0a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1278,8 +1280,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9825ed00431d8223fa6b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1287,8 +1289,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4b0107c5c07a72759647.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1296,8 +1298,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d79dce645d7ffa01b8f2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1305,8 +1307,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/47aba16c9adfe9f107c3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1314,8 +1316,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4172ed9636399ab7697b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1323,8 +1325,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/643428ca296dc6088988.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1332,8 +1334,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/662720b7e88ff72a4aa9.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1341,8 +1343,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/55cd401e56729beec2ae.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1350,8 +1352,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a9492e9c33a0aad558d2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1359,8 +1361,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/017181f8335ddaa8b92f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1368,8 +1370,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a0f87d6469a88547b2f7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1377,8 +1379,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/2e79edf398b4be702876.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1386,8 +1388,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ce1d4e4fb3fa7ee36b0d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1395,8 +1397,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/781f00d433668b618ad7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1404,8 +1406,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/091554accb8153d8826d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1413,8 +1415,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/65d0c3b0978eb8baaddc.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1422,8 +1424,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6138512a7adafbdd5704.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1431,8 +1433,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7480991b91c6b5ca0f1d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1440,8 +1442,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c7d7c8af8bf65ee73a0b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1449,8 +1451,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9fbe176477174490b19a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1458,8 +1460,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b8885688e470e8ad7a2e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1467,8 +1469,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/64cf5a4feb51e83daeed.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1476,8 +1478,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4a942658051618b78a18.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1485,8 +1487,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e8f1cba5708b620dc48e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1494,8 +1496,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ec7e99b2238e7f794176.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1503,8 +1505,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7651e34d1bfe8de4188b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1512,8 +1514,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6972604b918547e00ee2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1521,8 +1523,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c7545162919c071833e0.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1530,8 +1532,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ab771b07a1fd283edd7c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1539,8 +1541,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/96eff5134b4578ca5a41.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1548,8 +1550,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4140d68a3b60af062ff2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1557,8 +1559,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1bc313adad0f42fe8c1e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1566,8 +1568,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d8e3640b4184f9cca9f6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1575,8 +1577,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/dacecbac58779d745a88.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1584,8 +1586,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6fde84d3b5b08fcdd997.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1593,8 +1595,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/282c7dbc3e7e0d174edd.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1602,8 +1604,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ca35a1d7870b1d395611.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1611,8 +1613,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/30629677f4c008ed5c50.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1620,8 +1622,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/fa392c20b42da09a51ac.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1629,8 +1631,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/2377ab4275064aef5132.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1638,8 +1640,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d531d60c58731667ebcf.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1647,8 +1649,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/cbabee31ae7fe2b7c661.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1656,8 +1658,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3102fbe25ff6c6883999.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1665,8 +1667,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c69aea58f4bec0ed293b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1674,8 +1676,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4242f071f2e9a1b7c642.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1683,8 +1685,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/766a8f378ab2012e1e85.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1692,8 +1694,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b1fff8275f136b63e0f1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1701,8 +1703,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d8d5d30391bfea7d9585.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1710,8 +1712,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/47901563285aa9290865.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1719,8 +1721,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/9273a806be6a7aa40fde.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1728,8 +1730,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c989294b0af1fe58bdf5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1737,8 +1739,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/db1882eb03da8371b3e2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1746,8 +1748,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/29426ae6cfc2a0e195e1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1755,8 +1757,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/214279cda9eb8d4f8e1d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1764,8 +1766,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6330fe69e8964ed7c06f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1773,8 +1775,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f3b8e568aeaa41256d92.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1782,8 +1784,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ca2a8eb538c1bf97fcfd.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1791,8 +1793,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3be9af9401da39daca0d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1800,8 +1802,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f92004835cd0c7f6b0dc.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1809,8 +1811,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3f18f7119d8694f9e655.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1818,8 +1820,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f61e686df97c6a95887b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1827,8 +1829,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d29d7a7c0508c04e8a41.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1836,8 +1838,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b377a41097648b1251cb.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1845,8 +1847,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/0e3f431d9ab6108ccc94.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1854,8 +1856,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3e5538a2f91a4ed04bd7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1863,8 +1865,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a226ecb3ca51a2e739ae.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1872,8 +1874,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/0bcada8bb28c9e00c43b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1881,8 +1883,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/17784877abde4219c9c1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1890,8 +1892,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4acb17d700f7bb49638d.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1899,8 +1901,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/681ddd3f8e201cf6841a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1908,8 +1910,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/355122a689dfe25eb2b6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1917,8 +1919,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6e66976633272ece2fc1.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1926,8 +1928,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a1c818575051f971943c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1935,8 +1937,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/56f92fea94f97c6f70cc.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1944,8 +1946,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4e1740f0d3845e07fbe4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1953,8 +1955,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7c26ed5740513b71faeb.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1962,8 +1964,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/8eb8318a88ce3c3612c2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1971,8 +1973,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/2508bea0c63e87a3ccd4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1980,8 +1982,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/886ffaf7ab4e8b7cff73.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1989,8 +1991,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/065f5f270d05c08fb6d6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -1998,8 +2000,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/17a3ed53b0c5e0e4003e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2007,8 +2009,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f38168322596a9e0d044.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2016,8 +2018,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ddde07217533029d0558.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2025,8 +2027,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4989ed3c774fae7f113a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2034,8 +2036,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/972a0c0feef058bd7a6e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2043,8 +2045,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/5698e9801cfa1ce1e4d4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2052,8 +2054,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1432a83628b2848ad8ec.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2061,8 +2063,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d7c57227b32ac7dc28e8.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2070,8 +2072,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/462ca86c54e4c97081de.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2079,8 +2081,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1200a43bf0552718ee6c.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2088,8 +2090,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/85f71ce7994338ace950.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2097,8 +2099,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/433e7cc21212460770ec.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2106,8 +2108,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ea6a94471e6ea0c765a7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2115,8 +2117,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e21a448bd2905a6982d4.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2124,8 +2126,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/57df6e2a3598a7ac02a5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2133,8 +2135,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d351891160e93f34af36.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2142,8 +2144,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3c058c23d3209013ff9b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2151,8 +2153,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f4bde74bd6a9bde4a5c7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2160,8 +2162,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/d2574f64936bf6b3d6a0.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2169,8 +2171,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f07f17b9428b9dc5da16.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2178,8 +2180,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/842ca26fd284cf4b2bac.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2187,8 +2189,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b8efde8a157bda2b69f8.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2196,8 +2198,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3826a3b0c83472f9d8a3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2205,8 +2207,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/2cdf66a5ecda8b9649b9.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2214,8 +2216,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/33ba08aff5177e218000.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2223,8 +2225,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/4ff8007153c73be51348.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2232,8 +2234,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/ae776a83f37943fc2834.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2241,8 +2243,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/6ef1538d5f7ff0780764.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2250,8 +2252,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/eda47b8262311c190cdd.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2259,8 +2261,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/338d6fdd05139b113516.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2268,8 +2270,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f6a827e07b3562a03135.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2277,8 +2279,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/de2d9dc343f152593502.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2286,8 +2288,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/3eebf2cb5fa1c3712468.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2295,8 +2297,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7b87eea85b5bb8acf2c7.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2304,8 +2306,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/7b50771cbc9c37743187.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2313,8 +2315,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/dccc33226cc9d16d5b9e.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2322,8 +2324,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/b35536d7742ba4a14b75.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2331,8 +2333,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/e8c95d5c67fa7cfa7279.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2340,8 +2342,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/70dff020ab7559ab38b5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2349,8 +2351,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/664020e0eb1efb7a94ee.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2358,8 +2360,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/cb4dccc116ead861e620.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2367,8 +2369,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c39fe504c1e6a9d4104f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2376,8 +2378,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/c35a548fb562b03ce521.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2385,8 +2387,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/10fc09a7b1bfdcd8b12f.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2394,8 +2396,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/92858d9111f03c088eb2.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2403,8 +2405,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/387f9ccb4f0bb059fdb8.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2412,8 +2414,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/53e5360426ca95d2a22b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2421,8 +2423,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/560a7cd3f45380936fd5.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2430,8 +2432,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/f7d7594dedb02b694461.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2439,8 +2441,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/a7c7e3aeb0f1169e87a6.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2448,8 +2450,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/27da58078e9c06fdbd7a.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2457,8 +2459,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/1024370ac5415f262c42.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2466,8 +2468,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/92742874e5e73176f846.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2475,8 +2477,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/76b9db250bae82727f92.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2484,8 +2486,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/361e13d9230533097d83.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2493,8 +2495,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/177771e891b33dc9fb78.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2502,8 +2504,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/582ec23f523665d3b198.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2511,8 +2513,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/8de7e90582555d2c5e0b.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2520,8 +2522,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/5f414f36e0389badf9d3.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
@@ -2529,8 +2531,8 @@
       "kind": "plugins",
       "path": "upstream/plugins/39517e72612f902a2f46.lpx",
       "status": "unavailable",
-      "error": "<urlopen error [Errno -5] No address associated with hostname>",
-      "blocked": false,
+      "error": "Cloudflare access block; upstream file was not returned",
+      "blocked": true,
       "sha256": null
     },
     {
