@@ -9,7 +9,7 @@
     "error": null
   },
   "lingjing": {
-    "added": 257,
+    "added": 255,
     "duplicates_removed": 795,
     "unsupported_url_rules_skipped": 1,
     "sources": [
@@ -65,7 +65,7 @@
         "status": "ok",
         "error": null,
         "blocked": false,
-        "sha256": "9c0c203698ffabbc61f1f48ae91120789d4de2b5d711e12a73d63c2ef4ada2e9"
+        "sha256": "85d4359af0fde69386a84866cda7511ac564993c1a8bba1ac304d7eb03b45750"
       },
       {
         "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Google.list",
@@ -3028,7 +3028,7 @@
       "status": "ok",
       "error": null,
       "blocked": false,
-      "sha256": "9c0c203698ffabbc61f1f48ae91120789d4de2b5d711e12a73d63c2ef4ada2e9"
+      "sha256": "85d4359af0fde69386a84866cda7511ac564993c1a8bba1ac304d7eb03b45750"
     },
     {
       "url": "https://raw.githubusercontent.com/LingJingMaster/Shadowrocket-Rules/main/Google.list",
